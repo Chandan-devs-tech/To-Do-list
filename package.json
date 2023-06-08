@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/Chandan-devs-tech/To-Do-list/issues"
   },
-  "homepage": "https://github.com/Chandan-devs-tech/To-Do-list#readme",
+  "homepage": "https://chandan-devs-tech.github.io/To-Do-list",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.8.1",
@@ -27,6 +27,7 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.27.5",
     "file-loader": "^6.2.0",
+    "gh-pages": "^5.0.0",
     "hint": "^7.1.8",
     "html-webpack-plugin": "^5.5.1",
     "style-loader": "^3.3.3",

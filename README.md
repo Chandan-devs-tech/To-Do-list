@@ -63,7 +63,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://chandan-devs-tech.github.io/To-Do-list)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -161,6 +161,6 @@ I would like to thank [Microverse](https://www.microverse.org/go)
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT]() licensed.
+This project is [MIT](https://github.com/Chandan-devs-tech/To-Do-list/blob/feature/listStructure/MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/Chandan-devs-tech/To-Do-list/issues"
   },
-  "homepage": "https://chandan-devs-tech.github.io/To-Do-list",
+  "homepage": "https://github.com/chandan-devs-tech/To-Do-list#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.8.1",

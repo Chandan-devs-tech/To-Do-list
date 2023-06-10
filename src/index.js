@@ -1,43 +1,26 @@
 import './style.css';
 import '@fortawesome/fontawesome-free/css/all.css';
-
-const arrayOfTasks = JSON.parse(localStorage.getItem('arrayOfTasks')) || [
-  { description: ' Cleaning', completed: false, index: 1 },
-  { description: 'Reading', completed: false, index: 2 },
-  { description: 'Walking', completed: false, index: 3 },
-];
+// eslint-disable-next-line
+import { addItem, displayItem } from '../modules/taskFunction.js';
+// eslint-disable-next-line
+let arrayOfTasks = JSON.parse(localStorage.getItem('arrayOfTasks')) || [];
 const toDoList = document.querySelector('.toDoList');
+const taskInput = document.querySelector('.taskInput');
+const addBtn = document.getElementById('addBtn');
 
-const displayItem = () => {
-  arrayOfTasks.forEach((todo) => {
-    const div = document.createElement('div');
-    div.classList.add('listItem');
-    const attr = document.createAttribute('data-id');
-    attr.value = todo.index;
-    div.setAttributeNode(attr);
-
-    const divElement = document.createElement('div');
-    divElement.className = 'checkText';
-    const inputElement = document.createElement('input');
-    inputElement.type = 'checkbox';
-    inputElement.id = 'myCheckbox';
-    const inputTextElement = document.createElement('input');
-    inputTextElement.classList.add('toDoText');
-    inputTextElement.type = 'text';
-    inputTextElement.value = todo.description;
-    divElement.appendChild(inputElement);
-    divElement.appendChild(inputTextElement);
-    const buttonElement = document.createElement('button');
-    buttonElement.type = 'button';
-    buttonElement.className = 'btn';
-    const iElement = document.createElement('i');
-    iElement.className = 'fa-solid fa-ellipsis-vertical';
-    buttonElement.appendChild(iElement);
-    div.appendChild(divElement);
-    div.appendChild(buttonElement);
-    toDoList.appendChild(div);
+const deleteTask = (index) => {
+  arrayOfTasks = arrayOfTasks.filter((task) => task.index !== index);
+  arrayOfTasks.forEach((task, index) => {
+    task.index = index + 1;
   });
   localStorage.setItem('arrayOfTasks', JSON.stringify(arrayOfTasks));
+  displayItem();
 };
 
+// event listeners
 document.addEventListener('DOMContentLoaded', displayItem);
+addBtn.addEventListener('click', addItem);
+
+export {
+  taskInput, toDoList, arrayOfTasks, deleteTask,
+};

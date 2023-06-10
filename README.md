@@ -125,8 +125,6 @@ I have deployed this project using: Github pages
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Project 1: List structure.]**
-- [ ] **[Project 2: Add and remove items.]**
 - [ ] **[Project 3: Interactive list.]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -137,7 +135,7 @@ I have deployed this project using: Github pages
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]()
+Feel free to check the [issues page](https://github.com/Chandan-devs-tech/To-Do-list/issues)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

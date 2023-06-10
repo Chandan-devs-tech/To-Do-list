@@ -125,7 +125,7 @@ I have deployed this project using: Github pages
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Project 3: Interactive list.]**
+- [ ] **[TO MAKE MORE INTERACTIVE]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

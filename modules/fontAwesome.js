@@ -6,4 +6,5 @@ const createIcon = (iconClass) => {
   iElement.classList.add(iconClass);
   return iElement;
 };
+
 export default createIcon;

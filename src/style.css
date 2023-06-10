@@ -115,13 +115,3 @@ body {
   transition: 0.2s;
   animation: rotation 0.4s linear;
 }
-
-.lineThrough {
-  text-decoration: line-through;
-}
-
-.fa-trash-alt::before,
-.fa-trash-can::before {
-  content: "\f2ed";
-  cursor: pointer;
-}

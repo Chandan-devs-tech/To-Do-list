@@ -3,7 +3,6 @@ import createElement from './createItem.js';
 
 // eslint-disable-next-line
 export let arrayOfTasks = JSON.parse(localStorage.getItem('arrayOfTasks')) || [];
-// import displayItem from "./displayItem.js";
 export const taskInput = document.querySelector('.taskInput');
 const toDoList = document.querySelector('.toDoList');
 

@@ -33,7 +33,6 @@ const createElement = (todo) => {
   //   checkbox event listener
   inputElement.addEventListener('change', () => {
     checker(inputTextElement, inputElement, div, todo, arrayOfTasks);
-    // localStorage.setItem("arrayOfTasks", JSON.stringify(arrayOfTasks));
   });
   if (todo.completed) {
     inputTextElement.classList.toggle('lineThrough');

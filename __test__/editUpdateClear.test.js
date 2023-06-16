@@ -79,5 +79,9 @@ describe('updateStatus function', () => {
   });
 });
 
-
+describe('Clear all function', () => {
+  test('Clearing the completed task', () => {
+    const clearItems = clearAll();
+    expect(clearItems).toHaveLength(3);
+  });
 });

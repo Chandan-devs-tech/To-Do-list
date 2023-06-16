@@ -42,10 +42,13 @@
 - JavaScript
 - Linters
 - Webpack
+- Testing To Do list
 
 ### Tech Stack <a name="tech-stack"></a>
 
 - This project is created using JavaScript Classes, DOM and Use ES6 modules to write modular JavaScript.
+
+- In this project I have write unit tests for the To Do list application. The testing project has been divided into two parts. In part 1 you will test functions responsible for adding and deleting list items. In part 2 you will test the status and content updates as well as the order re-position of items in the list.
 
 <!-- Features -->
 
@@ -98,11 +101,33 @@ Install this project with:
 
 ### Run tests
 
-To run tests, run the following command:
+**[To run tests, run the following command:]**
 - npx hint .
 - npx stylelint "**/*.{css,scss}"
 - npx eslint .
 
+**[To Install & Run Jest]**
+- npm i --save-dev jest
+  
+**[To Use Babel]**
+- npm install --save-dev @babel/core @babel/cli
+- npm install --save-dev @babel/core @babel/preset-env @babel/plugin-transform-modules-commonjs
+- npx babel src --out-dir dist
+
+**[Declare a .babelrc with configuration file]**
+
+`{
+  "presets": ["@babel/preset-env"],
+  "plugins": ["@babel/plugin-transform-modules-commonjs"]
+}`
+
+**[To Excecute the test that Involves DOM Manipulation]**
+
+- npm install --save-dev jsdom
+- create jest.config.js file
+- npm install --save-dev jest-environment-jsdom
+- npm run test
+- 
 ### Deployment
 
 I have deployed this project using: Github pages
@@ -113,19 +138,25 @@ I have deployed this project using: Github pages
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Chandan Gupta**
+
+👤 **CHANDAN GUPTA**
 
 - GitHub: [@githubhandle](https://github.com/Chandan-devs-tech)
 - Twitter: [@twitterhandle](https://twitter.com/ChandanGuptaDev)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/chandangupta-devs/)
 
+👤 **YUSUF SHOLOTAN**
+
+- GitHub: [@githubhandle](https://github.com/yin-ka)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/yusuf-sholotan/)
+  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Project 3: Interactive list.]**
+- [ ] **[Testing To Do list: part 2]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
